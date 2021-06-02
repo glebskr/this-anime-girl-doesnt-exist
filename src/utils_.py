@@ -84,8 +84,9 @@ def generate_random(model, device, latent_dim, hair_classes, eye_classes,sample_
     z = torch.randn(64, latent_dim).to(device)
 
     output = model(z, tag)
-
-    vutils.save_image(output,'{}/{} hair {} eyes.png'.format(sample_dir, 'random', 'random'))
+    image_path = '{}/{} hair {} eyes.png'.format(sample_dir, 'random', 'random')
+    vutils.save_image(output, image_path)
+    return image_path
 
 
 def generate_with_attributes(model, device, latent_dim, hair_classes, eye_classes,
@@ -104,5 +105,7 @@ def generate_with_attributes(model, device, latent_dim, hair_classes, eye_classe
     z = torch.randn(64, latent_dim).to(device)
 
     output = model(z, tag)
-    vutils.save_image(output, '{}/{} hair {} eyes.png'.format(sample_dir, hair_mapping[hair_class], eye_mapping[eye_class]))
+    image_path = '{}/{} hair {} eyes.png'.format(sample_dir, hair_mapping[hair_class], eye_mapping[eye_class])
+    vutils.save_image(output, image_path)
+    return image_path
 

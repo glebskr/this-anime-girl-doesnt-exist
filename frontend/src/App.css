@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+
+.selectors-conatiner {
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.selectors-conatiner > div {
+  width: 45%;
+}
+
+.selector-header {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.anime-img {
+  margin-top: 16px;
+}
+
