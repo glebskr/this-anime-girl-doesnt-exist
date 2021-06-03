@@ -9,4 +9,9 @@
 ####    #hair = ['orange', 'white', 'aqua', 'gray', 'green', 'red', 'purple', 'pink', 'blue', 'black', 'brown', 'blonde']
 ####    #eyes = ['gray', 'black', 'orange', 'pink', 'yellow', 'aqua', 'purple', 'green', 'brown', 'red', 'blue']
 
+#### Запуск:
+  +  `cd frontend && yarn && yarn build`
+  +  `cd .. && pip install -r requirements.txt`
+  +  `python app.py`
+
 https://drive.google.com/file/d/114Gn4zntp2nn_RlJsB9sER8Wy-6sPdwm/view?usp=sharing
