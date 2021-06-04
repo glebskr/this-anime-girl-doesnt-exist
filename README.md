@@ -15,5 +15,8 @@
   +  `python app.py`
   
   
-Генератор и дискриминатор:
+Генератор и дискриминатор(чекпоинты):
 https://drive.google.com/drive/folders/1VoJH1z-evTEorUpJAeopTxTh_77lBO_4?usp=sharing
+
+Датасет(с изображениями):
+https://drive.google.com/drive/folders/1qDwQCLvVCjBNBAKnQTPEqKMLdEIxZNjf?usp=sharing
