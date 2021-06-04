@@ -17,3 +17,6 @@
   
 Натренированная модель:
 https://drive.google.com/file/d/114Gn4zntp2nn_RlJsB9sER8Wy-6sPdwm/view?usp=sharing
+
+Датасет:
+https://drive.google.com/drive/folders/1qDwQCLvVCjBNBAKnQTPEqKMLdEIxZNjf?usp=sharing
