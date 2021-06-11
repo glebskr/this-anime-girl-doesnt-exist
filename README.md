@@ -1,4 +1,5 @@
 # AI powered Anime girls generator
+<img src="https://media.giphy.com/media/dkaqOQtSlv2IJcux6q/giphy.gif" width="462" height="480" frameBorder="0" class="giphy-embed" allowFullScreen />
 # Артамонов Сергей
 # Скроба Глеб
 # ИДБ-18-09
